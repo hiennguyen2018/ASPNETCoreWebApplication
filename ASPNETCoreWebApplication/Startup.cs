@@ -27,7 +27,7 @@ namespace ASPNETCoreWebApplication
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("We are BIS team new!!!");
+                await context.Response.WriteAsync("We are BIS team new. New branch!!!");
             });
         }
     }
